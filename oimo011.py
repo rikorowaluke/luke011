@@ -239,7 +239,7 @@ def game(player1: OthelloAI, player2: OthelloAI,N=6):
 
 import random
 
-class RandomAI(OthelloAI):
+class oimoAI(OthelloAI):
     def __init__(self, face, name):
         self.face = face
         self.name = name
